@@ -1,2 +1,2 @@
 # Mr.Robot
-<h1>Info Gathering</h1>
+<h2>Info Gathering</h2>
