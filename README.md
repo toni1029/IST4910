@@ -4,21 +4,21 @@ IST4910
 <h2>Info Gathering</h2>
 <em><b>Running an Nmap scan on Mr.Robot ip address</b></em>
 <p>
-<ul>
-    <li>Running Linux 3.10-4.11</li> 
-    <li>Port 22  (SSH   : Closed)</li>
-    <li>Port 80  (HTTP  : Open)</li>
-        <ul>
-            <li>Uses Apache</li>
-        </ul>
-    <li>Port 443 (HTTPS : Open)</li>
-        <ul>
-            <li>SSL cert is valid</li>
+    <img src="Images/mrR.png">
+    <ul>
+        <li>Running Linux 3.10-4.11</li> 
+        <li>Port 22  (SSH   : Closed)</li>
+        <li>Port 80  (HTTP  : Open)</li>
             <ul>
-                <li>Expires: 2025-09-13T10:45:03</li>
+                <li>Uses Apache</li>
             </ul>
-        </ul>
+        <li>Port 443 (HTTPS : Open)</li>
+            <ul>
+                <li>SSL cert is valid</li>
+                <ul>
+                    <li>Expires: 2025-09-13T10:45:03</li>
+                </ul>
+            </ul>
     
-  </ul>
-  <img src="Images/mrR.png">
+    </ul>
   </p>
