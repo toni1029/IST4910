@@ -1,4 +1,4 @@
 # IST4910
 <p>
-![Nmap Scan](Images/mrR.png)
+<img src="Images/mrR.png">
 </p>
