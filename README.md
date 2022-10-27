@@ -2,8 +2,11 @@
 IST4910
 </h1>
 <h2>Info Gathering</h2>
-<em><b>Running an Nmap scan on Mr.Robot ip address</b><em>
+<em><b>Running an Nmap scan on Mr.Robot ip address</b></em>
+<p>
 <ul>
+    <li>Running Linux 3.10-4.11</li>
+    
     <li>Port 22  (SSH   : Closed)</li>
     <li>Port 80  (HTTP  : Open)</li>
         <ul>
@@ -16,8 +19,14 @@ IST4910
                 <li>Expires: 2025-09-13T10:45:03</li>
             </ul>
         </ul>
-    <li>Running Linux 3.10-4.11</li>
+    
   </ul>
-<p>
-<img src="Images/mrR.png">
-</p>
+  <img src="Images/mrR.png">
+  </p>
+ 
+
+
+
+
+
+
