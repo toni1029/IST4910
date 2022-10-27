@@ -1,8 +1,8 @@
 <h1>
 IST4910
 </h1>
-<h2>Info Gathering</h2>
-<em><b>Running an Nmap scan on Mr.Robot ip address</b></em>
+<h3>Running an Nmap scan on Mr.Robot ip address</h3>
+
 <p>
     <img src="Images/mrR.png">
     <ul>
@@ -20,4 +20,75 @@ IST4910
                     </ul>
             </ul>
     </ul>
-  </p>
+</p>
+
+<h3>Dirb to find hidden directories</h3>
+
+<p>
+<img src="Images/dirb.png">
+</p>
+
+
+
+<h3>WP Scan</h3>
+<p>
+    <img src="Images/wp_version.png">
+<ul>
+    <li>Wordpress Version 4.3.30</li>
+</ul>
+
+</p>
+
+
+
+
+<h2>Hydra</h2>
+<p><em><i>Initially I was using Burp Suite to bruteforce, but they throttle requests 
+    with free version, so I found hydra as an alternative. I used this link to help
+    me with using hydra 
+    <a href="https://infinitelogins.com/2020/02/22/how-to-brute-force-websites-using-hydra/">Click here for Hydra Help!</a>
+</i></em></p>
+<h3>Username Bruteforce</h3>
+<p>
+Using the wordlist found in robots directory I bruteforced the username
+    <img src="Images/hydra.png">
+<ul>
+    <li>Valid Usernames</li>
+        <ul>
+            <li>elliot</li>
+            <li>Elliot</li>
+            <li>ELLIOT</li>
+        </ul>
+</ul>
+
+
+
+<h2>Password Bruteforce</h2>
+<p>
+Using the wordlist found in robots directory I bruteforced the password
+    <img src="Images/hydra2.png">
+<ul>
+    <li>Valid Password</li>
+        <ul>
+            <li>ER28-0652</li>
+        </ul>
+</ul>
+
+</p>
+
+
+
+<h1>KEYS</h1>
+<h3>Key 1</h3>
+    <p>Using dirb I started to look into the directories and found 
+        that robots.txt had the first key
+    </p>
+<img src="/Images/key 1.png">
+<img src="/Images/key1(1).png" alt="">
+
+
+<h3>Key 2</h3>
+<p><em><i>After some gooling i found an exploit on Metasploit which could 
+    open a shell via wordpress, which I did. After looking through directories I found key 2
+</i></em></p>
+    <img src="key2.png" >
