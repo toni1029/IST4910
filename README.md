@@ -15,10 +15,9 @@ IST4910
         <li>Port 443 (HTTPS : Open)</li>
             <ul>
                 <li>SSL cert is valid</li>
+                    <ul>
+                        <li>Expires: 2025-09-13T10:45:03</li>
+                    </ul>
             </ul>
-                <ul>
-                    <li>Expires: 2025-09-13T10:45:03</li>
-                </ul>
     </ul>
   </p>
- 
