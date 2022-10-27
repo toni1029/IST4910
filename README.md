@@ -5,8 +5,7 @@ IST4910
 <em><b>Running an Nmap scan on Mr.Robot ip address</b></em>
 <p>
 <ul>
-    <li>Running Linux 3.10-4.11</li>
-    
+    <li>Running Linux 3.10-4.11</li> 
     <li>Port 22  (SSH   : Closed)</li>
     <li>Port 80  (HTTP  : Open)</li>
         <ul>
@@ -23,10 +22,3 @@ IST4910
   </ul>
   <img src="Images/mrR.png">
   </p>
- 
-
-
-
-
-
-
