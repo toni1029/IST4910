@@ -1,5 +1,5 @@
 <h1>
-IST4910
+IST4910: Mr.Robot
 </h1>
 <h3>Running an Nmap scan on Mr.Robot ip address</h3>
 
@@ -91,4 +91,12 @@ Using the wordlist found in robots directory I bruteforced the password
 <p><em><i>After some gooling i found an exploit on Metasploit which could 
     open a shell via wordpress, which I did. After looking through directories I found key 2
 </i></em></p>
-    <img src="key2.png" >
+    <img src="/Images/key2.png" >
+<p>
+<h3>Key 3</h3>
+    <p><em><i> After googling I found an nmap vulnerability letting me be root, from 
+        there I went
+        to the same directory as before and found the last password
+    </i></em></p>
+        <img src="/Images/key3.png" >
+    </p>
